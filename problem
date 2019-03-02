@@ -1,0 +1,11 @@
+a, b, c = 0, 0, 0
+for x in range(1000):
+    if x % 3 == 0:
+        a = a + x
+    if x % 5 == 0:
+        b = b + x
+    if x % 3 == 0 and x % 5 == 0:
+        c = c + x 
+a = a + b - c          
+print(a)
+
